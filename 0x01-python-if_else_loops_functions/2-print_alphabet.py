@@ -1,5 +1,2 @@
-
-ch = 97
-while ch < 122:
-    print(chr(ch))
-    ch += 1
+for ch in range(ord('a'), ord('z') + 1):
+    print(chr(ch), end='')
