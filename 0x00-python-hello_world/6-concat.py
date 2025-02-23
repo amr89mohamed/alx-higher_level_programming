@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-str1 = "ALX"
-str2 = ""
-print(f"Welcome to {str1}!")
+str1 = " ALX!"
+str2 = "Welcome to"
+message = str2 + str1
+print(f"{message}")
